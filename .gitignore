@@ -208,3 +208,4 @@ __marimo__/
 
 /profiles.yml
 /pyproject.toml
+.user.yml
