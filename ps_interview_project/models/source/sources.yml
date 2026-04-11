@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: project
+    database: warehouse
+    schema: public       
+    tables:
+      - name: customer
+        identifier: customers
+      
+      - name: product
+        identifier: products
+      
+      - name: transaction
+        identifier: transactions
