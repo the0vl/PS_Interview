@@ -1,5 +1,5 @@
 with src_customers as (
-    SELECT * FROM {{ source('ps_project', 'customer') }}
+    SELECT * FROM {{ source('project', 'customer') }}
 )
 SELECT id as customer_id,
     first_name,
